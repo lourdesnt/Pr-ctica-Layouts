@@ -82,21 +82,21 @@ public class Aplicacion extends javax.swing.JFrame {
         panelCentral3 = new javax.swing.JPanel();
         lblEmpresa = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
+        lblSmile = new javax.swing.JLabel();
+        lblSmile1 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
-        jLabel13 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
-        jLabel15 = new javax.swing.JLabel();
-        jLabel16 = new javax.swing.JLabel();
+        lblIg = new javax.swing.JLabel();
+        lblRRSS = new javax.swing.JLabel();
+        lblTw = new javax.swing.JLabel();
+        lblRSS1 = new javax.swing.JLabel();
+        lblFb = new javax.swing.JLabel();
+        lblRSS2 = new javax.swing.JLabel();
+        lblGmail = new javax.swing.JLabel();
+        lblEmail = new javax.swing.JLabel();
         panelPrincipal = new javax.swing.JPanel();
         panelSuperior = new javax.swing.JPanel();
         lblLogo = new javax.swing.JLabel();
@@ -108,7 +108,6 @@ public class Aplicacion extends javax.swing.JFrame {
         btnConoc = new javax.swing.JButton();
 
         InicioSesion.setMinimumSize(new java.awt.Dimension(584, 380));
-        InicioSesion.setPreferredSize(new java.awt.Dimension(584, 380));
 
         panelPrincipal1.setBackground(new java.awt.Color(255, 255, 255));
         panelPrincipal1.setLayout(new java.awt.BorderLayout());
@@ -228,7 +227,6 @@ public class Aplicacion extends javax.swing.JFrame {
         );
 
         Comunidad.setMinimumSize(new java.awt.Dimension(600, 490));
-        Comunidad.setPreferredSize(new java.awt.Dimension(600, 490));
 
         panelPrincipal2.setBackground(new java.awt.Color(255, 255, 255));
         panelPrincipal2.setMinimumSize(new java.awt.Dimension(610, 490));
@@ -479,7 +477,6 @@ public class Aplicacion extends javax.swing.JFrame {
         );
 
         Menus.setMinimumSize(new java.awt.Dimension(700, 335));
-        Menus.setPreferredSize(new java.awt.Dimension(700, 335));
 
         panelPrincipal3.setMinimumSize(new java.awt.Dimension(670, 445));
         panelPrincipal3.setPreferredSize(new java.awt.Dimension(670, 445));
@@ -578,7 +575,6 @@ public class Aplicacion extends javax.swing.JFrame {
         );
 
         Empresa.setMinimumSize(new java.awt.Dimension(600, 350));
-        Empresa.setPreferredSize(new java.awt.Dimension(600, 350));
 
         panelPrincipal4.setMinimumSize(new java.awt.Dimension(600, 350));
         panelPrincipal4.setPreferredSize(new java.awt.Dimension(600, 350));
@@ -623,23 +619,23 @@ public class Aplicacion extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(32, 4, 0, 0);
         panelCentral3.add(jLabel1, gridBagConstraints);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ej3/images/smile.png"))); // NOI18N
+        lblSmile.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ej3/images/smile.png"))); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 36;
         gridBagConstraints.gridy = 6;
         gridBagConstraints.ipady = 1;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(32, 6, 0, 0);
-        panelCentral3.add(jLabel2, gridBagConstraints);
+        panelCentral3.add(lblSmile, gridBagConstraints);
 
-        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ej3/images/smile.png"))); // NOI18N
+        lblSmile1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ej3/images/smile.png"))); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 5;
         gridBagConstraints.gridy = 6;
         gridBagConstraints.ipady = 1;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(32, 16, 0, 0);
-        panelCentral3.add(jLabel3, gridBagConstraints);
+        panelCentral3.add(lblSmile1, gridBagConstraints);
 
         jLabel4.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
@@ -688,7 +684,7 @@ public class Aplicacion extends javax.swing.JFrame {
         gridBagConstraints.insets = new java.awt.Insets(18, 36, 0, 0);
         panelCentral3.add(jLabel8, gridBagConstraints);
 
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ej3/images/instagram.png"))); // NOI18N
+        lblIg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ej3/images/instagram.png"))); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 1;
         gridBagConstraints.gridy = 7;
@@ -696,9 +692,9 @@ public class Aplicacion extends javax.swing.JFrame {
         gridBagConstraints.ipady = 2;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(18, 53, 0, 0);
-        panelCentral3.add(jLabel9, gridBagConstraints);
+        panelCentral3.add(lblIg, gridBagConstraints);
 
-        jLabel10.setText("beehealthy");
+        lblRRSS.setText("beehealthy");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 2;
         gridBagConstraints.gridy = 7;
@@ -707,9 +703,9 @@ public class Aplicacion extends javax.swing.JFrame {
         gridBagConstraints.ipady = 4;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(18, 6, 0, 0);
-        panelCentral3.add(jLabel10, gridBagConstraints);
+        panelCentral3.add(lblRRSS, gridBagConstraints);
 
-        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ej3/images/twitter.png"))); // NOI18N
+        lblTw.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ej3/images/twitter.png"))); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 5;
         gridBagConstraints.gridy = 7;
@@ -718,9 +714,9 @@ public class Aplicacion extends javax.swing.JFrame {
         gridBagConstraints.ipady = 2;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(18, 18, 0, 0);
-        panelCentral3.add(jLabel11, gridBagConstraints);
+        panelCentral3.add(lblTw, gridBagConstraints);
 
-        jLabel12.setText("beehealthy");
+        lblRSS1.setText("beehealthy");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 20;
         gridBagConstraints.gridy = 7;
@@ -728,18 +724,18 @@ public class Aplicacion extends javax.swing.JFrame {
         gridBagConstraints.ipady = 6;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(18, 0, 31, 0);
-        panelCentral3.add(jLabel12, gridBagConstraints);
+        panelCentral3.add(lblRSS1, gridBagConstraints);
 
-        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ej3/images/facebook.png"))); // NOI18N
+        lblFb.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ej3/images/facebook.png"))); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 19;
         gridBagConstraints.gridy = 7;
         gridBagConstraints.ipadx = 4;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(18, 20, 0, 0);
-        panelCentral3.add(jLabel13, gridBagConstraints);
+        panelCentral3.add(lblFb, gridBagConstraints);
 
-        jLabel14.setText("beehealthy");
+        lblRSS2.setText("beehealthy");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 7;
         gridBagConstraints.gridy = 7;
@@ -748,9 +744,9 @@ public class Aplicacion extends javax.swing.JFrame {
         gridBagConstraints.ipady = 6;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(18, 10, 31, 0);
-        panelCentral3.add(jLabel14, gridBagConstraints);
+        panelCentral3.add(lblRSS2, gridBagConstraints);
 
-        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ej3/images/gmail.png"))); // NOI18N
+        lblGmail.setIcon(new javax.swing.ImageIcon(getClass().getResource("/ej3/images/gmail.png"))); // NOI18N
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 21;
         gridBagConstraints.gridy = 7;
@@ -759,9 +755,9 @@ public class Aplicacion extends javax.swing.JFrame {
         gridBagConstraints.ipady = 4;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(18, 66, 31, 0);
-        panelCentral3.add(jLabel15, gridBagConstraints);
+        panelCentral3.add(lblGmail, gridBagConstraints);
 
-        jLabel16.setText("beehealthy@gmail.com");
+        lblEmail.setText("beehealthy@gmail.com");
         gridBagConstraints = new java.awt.GridBagConstraints();
         gridBagConstraints.gridx = 22;
         gridBagConstraints.gridy = 7;
@@ -771,7 +767,7 @@ public class Aplicacion extends javax.swing.JFrame {
         gridBagConstraints.ipady = 6;
         gridBagConstraints.anchor = java.awt.GridBagConstraints.NORTHWEST;
         gridBagConstraints.insets = new java.awt.Insets(18, 0, 31, 51);
-        panelCentral3.add(jLabel16, gridBagConstraints);
+        panelCentral3.add(lblEmail, gridBagConstraints);
 
         panelPrincipal4.add(panelCentral3, java.awt.BorderLayout.CENTER);
 
@@ -1002,21 +998,11 @@ public class Aplicacion extends javax.swing.JFrame {
     private javax.swing.JTextField fieldPeso;
     private javax.swing.JTextField fieldUsuario;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JLabel lblAltura;
@@ -1025,13 +1011,17 @@ public class Aplicacion extends javax.swing.JFrame {
     private javax.swing.JLabel lblComunidad;
     private javax.swing.JLabel lblContras;
     private javax.swing.JLabel lblDias;
+    private javax.swing.JLabel lblEmail;
     private javax.swing.JLabel lblEmpresa;
     private javax.swing.JLabel lblEslogan;
     private javax.swing.JLabel lblEslogan1;
     private javax.swing.JLabel lblEslogan2;
     private javax.swing.JLabel lblEslogan3;
     private javax.swing.JLabel lblEslogan4;
+    private javax.swing.JLabel lblFb;
     private javax.swing.JLabel lblFecha;
+    private javax.swing.JLabel lblGmail;
+    private javax.swing.JLabel lblIg;
     private javax.swing.JLabel lblIniciarSesion;
     private javax.swing.JLabel lblLogo;
     private javax.swing.JLabel lblLogo1;
@@ -1041,6 +1031,12 @@ public class Aplicacion extends javax.swing.JFrame {
     private javax.swing.JLabel lblMenu;
     private javax.swing.JLabel lblNombre;
     private javax.swing.JLabel lblPeso;
+    private javax.swing.JLabel lblRRSS;
+    private javax.swing.JLabel lblRSS1;
+    private javax.swing.JLabel lblRSS2;
+    private javax.swing.JLabel lblSmile;
+    private javax.swing.JLabel lblSmile1;
+    private javax.swing.JLabel lblTw;
     private javax.swing.JLabel lblUsuario;
     private javax.swing.JPanel panelBotones;
     private javax.swing.JPanel panelCentral;
